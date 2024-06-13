@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(92, 92, 143); */
+    background-image: url("img\ 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container{
+    max-width: 500px;
+    height: auto;
+    margin: 50px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 24px #053c48,0 0 24px #2a2626,0 0 24px #2a2626;
+}
+form{
+    margin: 10px;
+    padding: 10px;
+    margin: ;
+}
+form .title{
+    display: flex;
+    justify-content: center;
+}
+form .title p span{
+    font-size: 2rem;
+    margin: 10px;
+    font-weight: 600;
+    color: #053c48;
+}
+form .input{
+    font-size: 1rem;
+    color: #053c48;
+    font-weight: 600;
+    margin: 10px;
+}
+form .input .input-box{
+    width: 100%;
+    
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #080d0f;
+}
+
+.submit-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin: 10px;
+    background-color: #053c48;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.submit-box .btn{
+    font-size: 1rem;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.have-account{
+    display: flex;
+    justify-content: center;
+}
+.have-account span a{
+    padding: 10px;
+    text-decoration: none;
+}
+.forgate-password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.forgate-password span a{
+    text-decoration: none;
+    font-size: 1rem;
+}
