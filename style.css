@@ -83,6 +83,7 @@ form .input .input-box{
 .have-account{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .have-account span a{
     padding: 10px;
